@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="text-center">
+  <!-- Profile Picture -->
+  <img src="{{ url_for('static', filename='img/profile.jpg') }}"
+       alt="My Picture"
+       class="rounded-circle shadow mb-3"
+       width="180" height="180">
+
+  <!-- Your Description -->
+  <h2 class="fw-bold">Hello, I’m Cyerylle Kaye Veraces</h2>
+  <p class="lead">
+    19 years old. Studying in University of Abra with a course of
+    <strong>Bachelor of Science in Information Technology</strong>, and I'm currently a 2nd Year College.
+  </p>
+  <p>
+    I love writing, and it became my hobby when I'm bored.
+    I also love cooking, but only the simple dishes.
+  </p>
+</div>
+{% endblock %}
